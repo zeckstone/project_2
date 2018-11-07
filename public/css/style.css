@@ -1,34 +1,51 @@
-#container{
-    height: 100%;
-    background-color: rgb(11, 51, 62);
-    margin-top: -p;
-}
-
-#title{
-    text-align: center;
-    font-family: serif;
-    background-color: black;
-    color: white;
-}
-
 #map{
-    height: 550px;
-    width: 500px;
-    margin-left: -10px;
-    margin-top: -24px;
+    height: 500px;
+    width: 940px;
+    margin-left: 0px;
+    margin-top: -20px;
     margin-bottom: 20px
 }
 
-#column3{
-    margin: 0;
-    padding: 0;
-    border: 0;
-} 
-
-body{
-    background-color: gray;
+#app-title{
+    text-align: center;
+    font-family: serif;
+    color: white;
+    font-size: 70px;
+    padding-top: 0px;
+    margin-top: -60px;
 }
 
-.btn-large{
-    align-self: center;
+
+body, html{
+    height: 100%;
+    background-color: gray;
+    
+}
+
+#summary{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: -20px;
+    color: white;
+    margin-bottom: -10px;
+
+}
+
+#col2{
+    margin-top: -20px;
+    padding-right: 35px;
+    padding-left: 21px;
+    background-color: crimson;
+    margin-bottom: 20px;
+    margin-right: 13px;
+    
+}
+
+.btn-1{
+    background-color: crimson;
+    border: 0px;
+}
+
+.jumbotron{
+    background-color: crimson;
 }

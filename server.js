@@ -4,9 +4,9 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 8081;
 
-// db.sequelize.sync().then(function() {
-//   console.log('Database connection has been established!');
-// });
+db.sequelize.sync().then(function() {
+  console.log('Database connection has been established!');
+});
 
 
 
@@ -18,10 +18,10 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Routes for sever requests
-// require("./routes/api-routes")(app);
-// require('./routes/html-routes')(app);
+require("./routes/api-routes")(app);
+require('./routes/html-routes')(app);
 
 //Initiates server listening on port
 app.listen(PORT, function(){
-  console.log(`App is now listening on PORT ${PORT}`)
-});
+  console.log(`Now listening on PORT ${PORT}`)
+}); 
